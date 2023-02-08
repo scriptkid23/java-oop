@@ -2,15 +2,16 @@ package day04;
 
 public class AccessModifiers {
     private String topLevelPrivateProperty = "Top-level private value";
-    public String top = "hello";
 
     public void topLevelPrivateMethod() {
+
         var inner = new InnerClass();
         System.out.println(inner.innerPrivateProperty);
         inner.innerPrivateMethod();
     }
 
     private class InnerClass {
+
         // private static String PROP = "Inner static"; //error
         private String innerPrivateProperty = "Inner private value";
 
@@ -30,6 +31,7 @@ public class AccessModifiers {
     }
 
     public static void main(String... args) {
+
         var top = new AccessModifiers();
 
         top.topLevelPrivateMethod();

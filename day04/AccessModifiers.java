@@ -21,6 +21,8 @@ public class AccessModifiers {
     }
 
     private static class InnerStaticClass {
+         
+        InnerClass innerClass = new InnerClass();
         private static String PROP = "Inner private static";
         private String innerPrivateProperty = "Inner private value";
 
@@ -33,7 +35,7 @@ public class AccessModifiers {
     public static void main(String... args) {
 
         var top = new AccessModifiers();
-
+        System.out.println(top.topLevelPrivateProperty);
         top.topLevelPrivateMethod();
 
         System.out.println(InnerStaticClass.PROP);

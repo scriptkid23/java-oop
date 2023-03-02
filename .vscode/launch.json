@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UsingSingletonPattern",
+            "request": "launch",
+            "mainClass": "DesignPattern.SingletonPattern.UsingSingletonPattern",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingletonPattern",
+            "request": "launch",
+            "mainClass": "DesignPattern.SingletonPattern.SingletonPattern",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch VitGia",
+            "request": "launch",
+            "mainClass": "Duck.VitGia",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "DesignPattern.Demo",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CrubberDuck",
+            "request": "launch",
+            "mainClass": "DesignPattern.CrubberDuck",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
             "name": "Launch Demo1",
             "request": "launch",
             "mainClass": "day5.Demo1",

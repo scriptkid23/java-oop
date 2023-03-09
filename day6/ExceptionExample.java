@@ -22,5 +22,10 @@ public class ExceptionExample {
     public static void main(String[] args) {
         var objectExample = new ObjectExample();
         objectExample.fall(null);
+        try {
+            System.out.println(Integer.parseInt(args[1]));
+        } catch (ArrayIndexOutOfBoundsException | NumberFormatException e) {
+            System.out.println("Missing or invalid input");
+        }
     }
 }

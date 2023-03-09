@@ -1,6 +1,7 @@
 package DesignPattern.BridgePattern;
 
 public abstract class RemoteControl {
+<<<<<<< Updated upstream
     private TV implementor;
 
     RemoteControl(TV imTv) {
@@ -19,4 +20,9 @@ public abstract class RemoteControl {
         implementor.tuneChannel(channel);
     }
 
+=======
+    abstract void  on();
+    abstract void  off();
+    abstract void  setChannel(int channel);
+>>>>>>> Stashed changes
 }

@@ -1,8 +1,13 @@
 package day04;
 
+import PackageExample.Util;
+import day04.Util.Helper;
+
 public class AccessPackageExample {
+
     public static void main(String[] args) {
-        day04.Util.Helper helper = new day04.Util.Helper();
+        Helper helper = new Helper();
+        Util
         helper.whoami();
     }
 

@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch UsingSingletonPattern",
+            "request": "launch",
+            "mainClass": "DesignPattern.SingletonPattern.UsingSingletonPattern",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingletonPattern",
+            "request": "launch",
+            "mainClass": "DesignPattern.SingletonPattern.SingletonPattern",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch VitGia",
+            "request": "launch",
+            "mainClass": "Duck.VitGia",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "DesignPattern.Demo",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CrubberDuck",
+            "request": "launch",
+            "mainClass": "DesignPattern.CrubberDuck",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo1",
+            "request": "launch",
+            "mainClass": "day5.Demo1",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterfaceExample",
+            "request": "launch",
+            "mainClass": "day5.InterfaceExample",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abtract",
+            "request": "launch",
+            "mainClass": "day5.Abtract",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbstractExample",
+            "request": "launch",
+            "mainClass": "AbstractExample",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encapsulation",
+            "request": "launch",
+            "mainClass": "Encapsulation",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Object",
+            "request": "launch",
+            "mainClass": "Object",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Polymorphism",
+            "request": "launch",
+            "mainClass": "Polymorphism",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccessModifiers",
+            "request": "launch",
+            "mainClass": "day04.AccessModifiers",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccessPackageExample",
+            "request": "launch",
+            "mainClass": "day04.AccessPackageExample",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstrutorSubClassExample",
+            "request": "launch",
+            "mainClass": "day04.ConstrutorSubClassExample",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LocalClassExample",
+            "request": "launch",
+            "mainClass": "day04.LocalClassExample",
+            "projectName": "java-oop_b11deb5"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverridingExample",
+            "request": "launch",
+            "mainClass": "day04.OverridingExample",
+            "projectName": "java-oop_b11deb5"
+        }
+    ]
+}

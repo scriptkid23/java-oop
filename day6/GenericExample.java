@@ -25,7 +25,11 @@ class Elephant {
         this.weight = weight;
     }
 }
-
+class Robot {
+    public void whoami(){
+        System.out.println("WLkjlj");
+    }
+}
 class LongTailAnimal {
     protected void chew(List<Integer> input) {
     }
@@ -62,6 +66,13 @@ public class GenericExample {
 
         Crate<Elephant> crateForElephant = new Crate<>();
         crateForElephant.packCrate(elephant);
+
+        Robot robot = new Robot();
+        Crate<Robot> cRobot = new Crate<>();
+        cRobot.packCrate(robot);
+        cRobot.lookInCrate().whoami();
+
+        
         crateForElephant.lookInCrate().getWeight();
 
         TrickyCrate<Elephant> trickyCrateElephant = new TrickyCrate<>();

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BridgePatternClient",
+            "request": "launch",
+            "mainClass": "DesignPattern.BridgePattern.BridgePatternClient",
+            "projectName": "java-oop_423f7e02"
+        },
+        {
+            "type": "java",
             "name": "Launch UsingSingletonPattern",
             "request": "launch",
             "mainClass": "DesignPattern.SingletonPattern.UsingSingletonPattern",

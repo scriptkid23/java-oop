@@ -1,4 +1,4 @@
-package BridgePattern;
+package DesignPattern.BridgePattern;
 
 public class BridgePatternClient {
     public static void main(String[] args) {

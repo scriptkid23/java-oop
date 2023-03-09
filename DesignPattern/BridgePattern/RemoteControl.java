@@ -1,4 +1,4 @@
-package BridgePattern;
+package DesignPattern.BridgePattern;
 
 public abstract class RemoteControl {
     private TV implementor;

@@ -1,4 +1,4 @@
-package BridgePattern;
+package DesignPattern.BridgePattern;
 
 public class ConcreteRemote extends RemoteControl {
 

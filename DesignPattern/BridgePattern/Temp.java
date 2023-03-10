@@ -1,13 +1,14 @@
 package DesignPattern.BridgePattern;
 
+
 public class Sony implements TV {
     @Override
-    public void on() {
+    void on() {
         System.out.println("Sony specific ON");
     }
 
     @Override
-    public void off() {
+    void off() {
         System.out.println("Sony specific OFF");
     }
 
@@ -17,4 +18,8 @@ public class Sony implements TV {
 
     }
 
+}
+
+public class Temp {
+    
 }
